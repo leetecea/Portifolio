@@ -18,6 +18,12 @@ a{
     text-decoration: none;
     color: black;
 }
+
+@media only screen and (min-width: 360px) and (max-width: 800px){
+    width: 22em;
+    height: 3.3em;
+}
+
 `
 export const Page = styled.p`
 font-size: 1.1em;
@@ -34,5 +40,7 @@ transition: 1s all;
     border: 1px solid #1e0233;
 }
 
-
+@media only screen and (min-width: 360px) and (max-width: 800px){
+    font-size: 1em;
+}
 `

@@ -15,18 +15,18 @@ export default function Home() {
           </figure>
           <S.BoxTwo>
             <S.Title>Sobre mim</S.Title>
-            <S.Text>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</S.Text>
+            <S.Text>Olá, visitante! Seja bem vindo ao meu portifólio, espero que o visual tenha te agradado. Me chamo Letícia, tenho 23 anos, sou vegetariana e apaixonada por animais (especialmente gatos). Como passatempo gosto muito de ler, assistir filmes, séries e também sou viciada em animações, meu lugar favorito no mundo até agora tem sido uma praia. E posso afirmar que estar em contato com a natureza me recarrega emocionalmente/espiritualmente de uma maneira inexplicável.</S.Text>
           </S.BoxTwo>
         </S.BoxOne>
         </S.Contain>
       <S.SocialMedias>
-        <a href="https://www.instagram.com/leetecea/" target="_blank">
+        <a href="https://www.instagram.com/leetecea/" target="_blank" rel="noreferrer noopener">
         <img src={Instagram} alt="Ícone Instagram" />
         </a>
-        <a href="https://www.linkedin.com/in/let%C3%ADcia-costa/" target="_blank">
+        <a href="https://www.linkedin.com/in/let%C3%ADcia-costa/" target="_blank" rel="noreferrer noopener">
         <img src={Linkedin} alt="Ícone Linkedin" />
         </a>
-        <a href="https://github.com/leetecea" target="_blank">
+        <a href="https://github.com/leetecea" target="_blank" rel="noreferrer noopener">
         <img src={GitHub} alt="Ícone Github" />
         </a>
       </S.SocialMedias>
