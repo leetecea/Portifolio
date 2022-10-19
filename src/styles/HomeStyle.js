@@ -51,7 +51,7 @@ width: 35em;
 height: 15em;
 `
 export const Title = styled.h2`
-padding-bottom: 1em;git
+padding-bottom: 1em;
 
 `
     
