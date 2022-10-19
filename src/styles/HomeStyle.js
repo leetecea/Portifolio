@@ -6,6 +6,7 @@ display: flex;
 flex-direction: column;
 background-color: #e5e1f1;
 width: 100%;
+
 `
 
 export const Contain = styled.div`
@@ -19,6 +20,10 @@ background-position: center;
 background-repeat: no-repeat;
 height: 85.3vh;
 background-color: #e5e1f1;
+
+@media only screen and (min-width: 360px) and (max-width: 800px) {
+    height: inherit;
+}
 `
 
 export const BoxOne = styled.div`
@@ -34,8 +39,7 @@ export const BoxOne = styled.div`
 @media only screen and (min-width: 360px) and (max-width: 800px){
     flex-direction: column;
     width: 100%;
-    height: 100vh;
-    gap: 6em;
+    gap: 1em;
 }
 `
 
@@ -52,20 +56,18 @@ border: .2rem solid #341b4e;
 export const BoxTwo = styled.section`
 display: flex;
 flex-direction: column;
-justify-content: space-evenly;
+gap: 1em;
 align-items: center;
-width: 40em;
-height: 15em;
+width: 60%;
+
 `
-export const Title = styled.h2`
-padding-bottom: .5em;
-`
+
 
 export const Text = styled.p`
 @media only screen and (min-width: 360px) and (max-width: 800px){
 font-size: .9em;
 width: 18em;
-margin-bottom: 6em;
+margin-bottom: 4.7em;
 }
 `
 

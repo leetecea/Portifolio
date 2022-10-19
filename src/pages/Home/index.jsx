@@ -14,7 +14,7 @@ export default function Home() {
             <S.Imagem src={Letícia} alt="Foto da Letícia" />
           </figure>
           <S.BoxTwo>
-            <S.Title>Sobre mim</S.Title>
+            <h2>Sobre mim</h2>
             <S.Text>Olá, visitante! Seja bem vindo ao meu portifólio, espero que o visual tenha te agradado. Me chamo Letícia, tenho 23 anos, sou vegetariana e apaixonada por animais (especialmente gatos). Como passatempo gosto muito de ler, assistir filmes, séries e também sou viciada em animações, meu lugar favorito no mundo até agora tem sido uma praia. E posso afirmar que estar em contato com a natureza me recarrega emocionalmente/espiritualmente de uma maneira inexplicável.</S.Text>
           </S.BoxTwo>
         </S.BoxOne>
