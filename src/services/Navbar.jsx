@@ -7,13 +7,13 @@ export default function Navbar() {
     <S.Container>
       <S.Navegation>
           <Link to='/'>
-            <p>Home</p>
+            <S.Page>Home</S.Page>
             </Link>
             <Link to='/onu'>
-            <p>Onu</p>
+            <S.Page>ODS - São Marcos</S.Page>
             </Link>
             <Link to='/projetos'>
-            <p>Projetos</p>
+            <S.Page>Projetos</S.Page>
           </Link>
       </S.Navegation>
     </S.Container>
