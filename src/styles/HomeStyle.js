@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import Sun from '../assets/sol.jpg'
 
-export const Container = styled.section`
+export const Container = styled.main`
 display: flex;
 flex-direction: column;
 background-color: #e5e1f1;
 width: 100%;
+height: 93.1vh;
 
 `
 
@@ -14,11 +15,11 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+height: 100vh;
 padding: 2rem;
 background-image: url(${Sun});
 background-position: center;
 background-repeat: no-repeat;
-height: 85.3vh;
 background-color: #e5e1f1;
 
 @media only screen and (min-width: 360px) and (max-width: 800px) {
@@ -80,6 +81,12 @@ padding: 1em;
 
 img{
     width: 2.5em;
+    object-fit: cover;
+    transition: 1s all;
+}
+img:hover{
+    opacity: .7;
+    transform: scale(1.09);
 }
 
 @media only screen and (min-width: 360px) and (max-width: 800px){

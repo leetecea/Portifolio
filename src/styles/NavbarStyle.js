@@ -11,7 +11,8 @@ export const Navegation = styled.nav`
 display: flex;
 justify-content: space-around;
 align-items: center;
-width: 30em;
+width: 40em;
+padding: 0em 1em 0em 1em;
 height: 4em;
 
 a{
@@ -31,11 +32,11 @@ text-shadow: 1px 1px 1px #938baa;
 transition: 1s all;
 
 :hover{
-    transform:scale(1.08);
+    font-size: 1.2em;
     color: #8f04fa85;
     text-shadow: none;
     background-color: #ffffffba;
-    padding: .2em .5em .3em .5em;
+    padding: .1em .4em .2em .4em;
     border-radius: 1em;
     border: 1px solid #1e0233;
 }
